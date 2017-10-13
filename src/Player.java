@@ -38,6 +38,7 @@ public class Player {
 	
 	public void receiveWinnings(int winnings) {
 		if (winnings < 0) throw new IllegalArgumentException("Winnings cannot be negative.");
+		//balance amount should be increase correctly 
 		balance = balance + winnings;		
 	}
 	
