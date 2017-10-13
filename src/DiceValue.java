@@ -23,6 +23,7 @@ public enum DiceValue {
 	
 	public static DiceValue getRandom() {
 		int random = RANDOM.nextInt(DiceValue.SPADE.ordinal());
+		//bug 3 - Spade card should be displayed
 		return values()[random];
 	}
 	
