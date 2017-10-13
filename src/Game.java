@@ -17,7 +17,7 @@ public class Game {
 	}
 
 	public List<DiceValue> getDiceValues() {
-		//same faces in each turn
+		//bug 4 : Same faces in each turn
 		values.clear();
 		for (Dice d : dice) {
 			values.add(d.getValue());
